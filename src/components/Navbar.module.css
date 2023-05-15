@@ -1,0 +1,37 @@
+.header{
+    display: flex;  
+    /* ke on 2 ta tag div biare kenar ham logo o ui */
+    justify-content: space-between;
+    /* fasle bede */
+    background-color: #9e9e9e;
+    align-items: center;
+    /* halat ofoqi ro ye khat vasat */
+    padding:0 50px ;
+    height: 80px;
+}
+.logo{
+    width: 40px;
+border-radius: 50%;
+padding: 10%;
+margin: auto 0;
+}
+
+.list{
+    display: flex;
+    /* kenar ham grr bde nvshte haro */
+    list-style: none;
+}
+.list li {
+    padding: 15px;
+cursor: pointer;
+color: #fff;
+font-weight: bold;
+
+}
+.list li a {
+    color:#fff;
+text-decoration-line: none;
+}
+.list li a:hover {
+    color: #b4b4b4;
+}
